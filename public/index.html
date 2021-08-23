@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p>Hello World!</p> -->
+
+    <!-- Google Maps embed API -->
+    <!-- <p>Google Maps embed API</p>
+    <iframe
+    width="300"
+    height="250"
+    style="border:0"
+    loading="lazy"
+    allowfullscreen
+    src="https://www.google.com/maps/embed/v1/place?key=API-KEY
+        &q=kunstgemuese,Berlin&zoom=18">
+    </iframe> -->
+
+    <!-- Google Maps static API -->
+    <!-- <p>Google Maps static API</p>
+    <img src="https://maps.googleapis.com/maps/api/staticmap?center=kunstgemuese,Berlin
+    &zoom=18
+    &size=300x250
+    &maptype=roadmap
+    &markers=color:blue%7Clabel:K%7C52.520389,13.460917
+    &key=API_KEY" /> -->
+    
+    <!-- Google Maps JS API -->
+    <!-- <div id="map" style="border: 1em solid blue; width: 500px; height: 200px;"></div> -->
+    
+    <!-- this doesn't work w/ Joel's key because of CORS policy, you would need to generate your own keys -->
+    <!-- <script
+    src="https://maps.googleapis.com/maps/api/js?key=API-KEY&callback=initMap"
+    async
+    ></script> -->
+    
+    <!-- <script>
+        let map;
+        function initMap() {
+            console.log(map)
+            const map = new google.maps.Maps(
+                document.getElementById("map"),
+                { 
+                    center: {
+                        lat: -34.397,
+                        lng: 150.644
+                    },
+                    zoom: 8,
+                }
+                )
+            }
+    </script> -->
+
+<div id="root"></div> 
+</body>
+</html>
